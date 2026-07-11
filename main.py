@@ -1,6 +1,4 @@
-Im_cracked = True
-# Boolean
-Var1 = 10
-#variables
-Var2 = "wsg"
-#strings
+Son = ["Tiktok" , "Insta" , "Shorts"]
+Son.append("rednote")
+print(Son)
+#lists, appends
