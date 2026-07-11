@@ -1,10 +1,31 @@
-list = [1 , 2 , 3 , 4 , 5 , 6]
-var1 = len(list)
-list.append(7)
-var2 = len(list)
-print(var2 - var1)
+big = 4
 
-list1 = {"zero" : 1 , "one" : 2 , "two" : 3 , "three" : 4 , "four" : 5 , "five" : 6}
-print(list1["three"] * list1["five"])
-list1["six"] = 7
-print(list1)
+if big == 2:
+    print("unserious")
+elif big == 1:
+    print("unserious")
+elif big == 3:
+    print("unserious")
+else:
+    print("locked")
+
+v1 = 2
+v2 = 2
+if v1 != v2:
+    print("unequal")
+else:
+    print("equal")
+
+score = 15
+
+if score >= 90:
+    print ("A")
+elif score >= 80:
+    print ("B")
+elif score >= 70:
+    print ("C")
+elif score >= 60:
+    print ("D")
+else:
+    print ("F")
+    
